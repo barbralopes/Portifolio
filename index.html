@@ -1,110 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Bárbara Lopes</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Bárbara Lopes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Hero -->
-    <section id="hero">
-        <h1>Bem-vindo ao meu portfólio</h1>
-        <p>Sou Bárbara Lopes, estudante de ADS - 4° Período</p>
-    </section>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Bárbara Lopes</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- About -->
-    <section id="about">
-        <h2></h2>
-        <img src="./img/perfil.jpg" alt="Foto de perfil" width="200">
-        <p>
-            Sou Bárbara Lopes Coelho, nascida em 2003 em Belo Horizonte/MG, cidade onde resido até hoje. 
-            Atualmente sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Newton Paiva e 
-            atuo como Analista de Suporte na Netimóveis.
-        </p>
-    </section>
+  <!-- Hero -->
+  <section id="hero">
+    <h1>Olá Mundo!</h1>
+    <h1>Bem-vindo ao meu portfólio</h1>
+    <p><strong>Web Developer</strong></p>
+    <a href="#contact" class="balao">Entre em contato!</a>
+  </section>
+  
+  <!-- About -->
+  <section id="about">
+    <img src="./img/perfil.jpg" alt="Foto de perfil de Bárbara Lopes Coelho">
+    <div class="about-text">
+      <h2>Sou Bárbara Lopes Coelho</h2>
+      <p>
+        Nascida em 2003 em Belo Horizonte/MG, cidade onde vivo até hoje. 
+        Atualmente, curso Análise e Desenvolvimento de Sistemas na Faculdade Newton Paiva
+        e atuo como Analista de Suporte na Netimóveis, desenvolvendo habilidades técnicas e profissionais na área de tecnologia.
+      </p>
+      <p>
+        Sou um profissional responsável e pontual, comprometido com a entrega de tarefas e o cumprimento de prazos. Tenho facilidade em aprender e me adaptar a novos desafios, absorvendo rapidamente novas demandas. Minhas habilidades de comunicação são excelentes, especialmente para traduzir assuntos técnicos para diferentes públicos. Além disso, com ótimo relacionamento interpessoal atuo de forma colaborativa para alcançar os objetivos da equipe.
+      </p>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section id="services">
-        <h2>💻 Serviços</h2>
-        <div>
-            <h3>Desenvolvimento Web</h3>
-            <ul>
-                <li>Criação de sites e aplicações web utilizando HTML, CSS e Java.</li>
-            </ul>
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-tags">
+      <span class="tech-tag">DAO</span>
+      <span class="tech-tag">MVC</span>
+      <span class="tech-tag">HTML</span>
+      <span class="tech-tag">CSS</span>
+      <span class="tech-tag">Markdown</span>
+      <span class="tech-tag">Java Swing</span>
+      <span class="tech-tag">MySQL</span>
+      <span class="tech-tag">SQL Server</span>
+      <span class="tech-tag">Java</span>
+    </div>
+  </section>
 
-            <h3>Suporte Técnico</h3>
-            <ul>
-                <li>Atendimento a problemas técnicos, manutenção de sistemas e suporte a clientes utilizando o sistema Freshdesk.</li>
-            </ul>
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Serviços</h2>
+      <div class="services-grid">
 
-            <h3>Rotinas Administrativas e Atendimento</h3>
-            <ul>
-                <li>Organização de processos administrativos, atendimento telefônico e suporte direto a usuários.</li>
-            </ul>
+        <div class="service-card">
+          <h3 class="service-title">Desenvolvimento Web</h3>
+          <p>Criação de sites e aplicações com <strong>HTML, CSS, JavaScript</strong> e <strong>Swing</strong>, além do uso de <strong>Java</strong> para lógica e estrutura de dados.</p>
         </div>
-    </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>📌 Projetos</h2>
-        <div>
+        <div class="service-card">
+          <h3 class="service-title">Suporte Técnico</h3>
+          <p><strong>Resolução de problemas</strong>, <strong>manutenção de sistemas</strong> e atendimento via chamados ou telefone, utilizando o <strong>Freshdesk</strong> para gestão eficiente.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Gestão de Processos</h3>
+          <p><strong>Organização e acompanhamento</strong> de tarefas e projetos, com uso do <strong>Jira Atlassian</strong> para otimizar fluxos e garantir transparência.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Banco de Dados</h3>
+          <p>Experiência com <strong>SQL Server</strong> para consultas complexas, geração de relatórios e comandos <strong>DML</strong>, assegurando <strong>integridade</strong> e <strong>precisão</strong> dos dados.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 class="service-title">Capacitação e Treinamento</h3>
+          <p><strong>Treinamentos</strong> e <strong>tutoriais</strong> para orientar usuários, sanar dúvidas e promover o uso eficiente e autônomo de sistemas.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <p class="section-subtitle">Alguns dos projetos que desenvolvi recentemente</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-images">
+            <div class="project-image">
+              <img src="./img/logproj.png" alt="Tela inicial do sistema de imobiliária">
+            </div>
+            <div class="project-image">
+              <img src="./img/menuproj.png" alt="Menu do sistema de imobiliária">
+            </div>
+            <div class="project-image">
+              <img src="./img/agendproj.png" alt="Agendamento do sistema de imobiliária">
+            </div>
+          </div>
+          <div class="project-content">
             <h3>Sistema de Imobiliária (CRUD)</h3>
             <p>Projeto interno para a Faculdade, orientado pelo Professor Marcelo, responsável pelas disciplinas de Programação Orientada a Objetos e Linguagem de Programação.</p>
-            <p>Este projeto é um sistema desktop para gerenciamento imobiliário, desenvolvido em Java, com interface gráfica em Swing e persistência de dados em MySQL. 
-               Segue os padrões de arquitetura MVC (Model-View-Controller) e DAO (Data Access Object), garantindo organização, separação de responsabilidades e manutenção facilitada.</p>
-            <p>Para ver mais do projeto, <a href="https://github.com/barbralopes" target="_blank">acesse meu GitHub</a>.</p>
-            <img src="./img/logproj.png" alt="Tela inicial do sistema de imobiliária" width="300">
-            <img src="./img/menuproj.png" alt="Menu do sistema de imobiliária" width="300">
-            <img src="./img/agendproj.png" alt="Agendamento do sistema de imobiliária" width="300">
+            <p>Este projeto é um sistema desktop para gerenciamento imobiliário, desenvolvido em Java, com interface gráfica em Swing e persistência de dados em MySQL. Segue os padrões de arquitetura MVC (Model-View-Controller) e DAO (Data Access Object), garantindo organização, separação de responsabilidades e manutenção facilitada.</p>
+            <div class="project-tags">
+              <span class="project-tag">DAO</span>
+              <span class="project-tag">MVC</span>
+              <span class="project-tag">Java</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Java Swing</span>
+            </div>
+            <a href="https://github.com/barbralopes/Imobiliaria_CRUD_Java" target="_blank" class="project-link">
+              <i class="fas fa-external-link-alt"></i> Ver Projeto
+            </a>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2>📈 Habilidades</h2>
-        <h3>Hard Skills</h3>
-        <ul>
-            <li>HTML, CSS e Markdown</li>
-            <li>Linguagem Java</li>
-            <li>MySQL e SQL Server</li>
-            <li>Padrões de projeto (DAO, MVC)</li>
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Pontualidade e responsabilidade com prazos</li>
-            <li>Facilidade de aprendizado</li>
-            <li>Comunicação clara e didática</li>
-            <li>Trabalho em equipe e bom relacionamento interpessoal</li>
-        </ul>
-    </section>
+  <!-- Contact -->
+  <section id="contact">
+    <p>Vamos trabalhar juntos em seu próximo projeto!</p>
+    
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <span><a href="mailto:blcoelho51@gmail.com">blcoelho51@gmail.com</a></span>
+    </div>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>📧 Contato</h2>
-        <p>Telefone: (31) 98352-2361</p>
-        <p>Email: <a href="mailto:blcoelho51@gmail.com">blcoelho51@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/barbara-lopes-coelho/" target="_blank">Meu LinkedIn</a></p>
-    </section>
+    <div class="contact-item">
+      <i class="fab fa-linkedin"></i>
+      <span><a href="https://www.linkedin.com/in/barbara-lopes-coelho/" target="_blank">LinkedIn</a></span>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 - Portfólio de Bárbara Lopes</p>
-    </footer>
+    <div class="contact-item">
+      <i class="fab fa-github"></i>
+      <span><a href="https://github.com/barbralopes" target="_blank">GitHub</a></span>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Newton Paiva - Análise e Desenvolvimento de Sistemas</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 - Portfólio de Bárbara Lopes</p>
+  </footer>
+
 </body>
 </html>
